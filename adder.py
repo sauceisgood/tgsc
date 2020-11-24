@@ -15,18 +15,13 @@ re="\033[1;31m"
 gr="\033[1;32m"
 cy="\033[1;36m"
 
-def banner():
-    print(f"""
+print (re+"█─▄─▄─█─▄▄▄▄██▀▄─██▄─▄▄▀█▄─▄▄▀█")
+print (gr+"███─███─██▄─██─▀─███─██─██─██─█")
+print (re+"▀▀▄▄▄▀▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▀▀▄▄▄▄▀▀")
 
-
-█─▄─▄─█─▄▄▄▄██▀▄─██▄─▄▄▀█▄─▄▄▀█
-███─███─██▄─██─▀─███─██─██─██─█
-▀▀▄▄▄▀▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▄▀▀▄▄▄▄▀▀
-              
-              Version : 1.01
- {re}Subscribe Vida-Livre.Net on Youtube.
-   {cy}http://bit.ly/tyvidalivre
-        """)
+print (cy+"version : 1.01")
+print (cy+"Make sure you Subscribed Vida;Livre.net On Youtube")
+print (cy+"http://bit.ly/tyvidalivre")
 
 print (re+"NOTE :")
 print ("1. Telegram only allow to add 200 members in group by one user.")
